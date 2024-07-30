@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    /* position: fixed;
+    top: 0px; */
+}
+nav .upperNav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(202, 17, 118);
+    
+}
+nav .upperNav .inner{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    padding-top: 10px;
+}
+nav .upperNav .inner h2{
+    color: white;
+    padding-top: 8px;
+}
+nav .upperNav .inner #business{
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(202, 17, 118);
+    border: 1px solid white;
+}
+nav .upperNav .inner #business a{
+    text-decoration: none;
+     color: white;
+}
+nav .upperNav .inner #business:hover {
+    background-color: white;
+}
+nav .upperNav .inner #business a:hover{
+    color: black;
+}
+nav .next{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+}
+nav .next .logo{
+    width: 200px;
+    /* border: 2px solid black; */
+    height: 80%;
+    margin-left: 100px;
+}
+nav .next .logo img{
+    padding-top: 15px;
+    width: 80%;
+    height: 100%;
+}
+nav .next .details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70px;
+    /* border: 2px solid black; */
+    width: 260px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+nav .next .details .user{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+nav .next .details .lang{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.backImage{
+    width: 100%;
+    background-image: url('pics/backimage.webp');
+    height: 80vh;
+}
+.backImage .text{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid black; */
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.backImage .text h1{
+    font-size: 40px;
+}
+.backImage .text .inpbtn{
+    margin-top: 100px;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* shape-rendering: crispEdges; */
+    /* box-shadow: 20px; */
+}
+.backImage .text .inpbtn input{
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    /* padding-top: 15px; */
+    margin-top: 10px;
+}
+
+.backImage .text .inpbtn #location{
+    width: 15%;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(202, 17, 118);
+}
+footer{
+    width: 100%;
+    margin-top: 100px;
+}
+footer .hrTag{
+    width: 90%;
+    margin: auto;
+}
+footer .inner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+footer .inner .side{
+    width: 24%;
+    color: rgb(202, 17, 118);
+}
+footer .inner .side2{
+    width: 24%;
+}
+
+footer .inner .side2 ul li{
+    list-style: none;
+    padding-top: 15px;
+}
+footer .inner .side2 ul li a{
+    text-decoration: none;
+    color: rgb(202, 17, 118);
+    font-size: 19px;
+}
+.innerIcons{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.innerIcons .icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.innerIcons .icon img{
+    width: 100%;
+}
+.innerIcons .empty{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.innerIcons .icons{
+    width: 200px;
+    /* border: 2px solid black; */
+    padding-top: 10px;
+}
+.mainSection{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.mainSection .innerSection{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(202, 17, 118);
+    border: 2px solid black;
+    /* height: 80vh; */
+}
+.mainSection .innerSection .header{
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+}
+.mainSection .innerSection .header #reName{
+
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.mainSection .innerSection .items{
+    width: 50%;
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+}
+.mainSection .innerSection .items h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mainSection .innerSection .items input{
+    width: 60%;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+.mainSection .innerSection .btns{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+     display: flex; 
+    justify-content: space-between;
+}
+.mainSection .innerSection .btns button{
+    width: 23%;
+    height: 50px;
+    color: white;
+    background-color:  rgb(202, 17, 118);
+    font-size: 18px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}

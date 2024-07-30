@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    /* position: fixed;
+    top: 0px; */
+}
+nav .upperNav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(202, 17, 118);
+    
+}
+nav .upperNav .inner{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    padding-top: 10px;
+}
+nav .upperNav .inner h2{
+    color: white;
+    padding-top: 8px;
+}
+nav .upperNav .inner #business{
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(202, 17, 118);
+    border: 1px solid white;
+}
+nav .upperNav .inner #business a{
+    text-decoration: none;
+     color: white;
+}
+nav .upperNav .inner #business:hover {
+    background-color: white;
+}
+nav .upperNav .inner #business a:hover{
+    color: black;
+}
+nav .next{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+}
+nav .next .logo{
+    width: 200px;
+    /* border: 2px solid black; */
+    height: 80%;
+    margin-left: 100px;
+}
+nav .next .logo img{
+    padding-top: 15px;
+    width: 80%;
+    height: 100%;
+}
+nav .next .details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70px;
+    /* border: 2px solid black; */
+    width: 260px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+nav .next .details .user{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+nav .next .details .lang{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.backImage{
+    width: 100%;
+    background-image: url('pics/backimage.webp');
+    height: 80vh;
+}
+.backImage .text{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid black; */
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.backImage .text h1{
+    font-size: 40px;
+}
+.backImage .text .inpbtn{
+    margin-top: 100px;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* shape-rendering: crispEdges; */
+    /* box-shadow: 20px; */
+}
+.backImage .text .inpbtn input{
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    /* padding-top: 15px; */
+    margin-top: 10px;
+}
+
+.backImage .text .inpbtn #location{
+    width: 15%;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(202, 17, 118);
+}
+.image{
+    width: 100%;
+    margin-top: 70px;
+    height: 80vh;
+}
+.image h1{
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.image img{
+    width: 100%;
+    height: 80%;
+}
+.image .card{
+    width: 600px;
+    height: 270px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 1100px;
+}
+.image .card p{
+    padding-left: 15px;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image .card h3{
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.image .card #busiBtn{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    
+    font-size: 15px;
+    background-color: rgb(202, 17, 118);
+    /* padding-left: 15px; */
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.image .card #busiBtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.imageSection{
+    width: 100%;
+    margin-top: 100px;
+}
+.imageSection h1{
+    margin-left: 100px;
+}
+.imageSection .innerSection{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.imageSection .innerSection .card{
+    width: 24%;
+    height: 250px;  
+    /* border: 2px solid black;  */
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.imageSection .innerSection .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+.imageSection .innerSection .card .text{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    /* top: 10px; */
+    bottom: 50px;
+    margin-left: 10px;
+}
+.imageSection .innerSection .card .text .btn{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.appsection{
+    width: 100%;
+    margin-top: 50px;
+}
+.appsection h1{
+    margin-left: 100px;
+    font-size: 40px;
+}
+.appsection .inner{
+    width: 90%;
+    background-color: rgb(202, 17, 118);
+    margin: auto;
+    /* border: 2px solid black; */
+    height: 370px;
+    border-radius:20px ;
+}
+.appsection .inner .text{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.appsection .inner .text .imageText{
+    /* margin-top: 40px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    /* border: 2px solid black; */
+}
+.appsection .inner .text .imageText .image{
+    width: 30%;
+    height: 120px;
+    /* border: 2px solid black; */
+}
+.appsection .inner .text .imageText .image img{
+    width: 100%;
+    height: 100%;
+}
+.appsection .inner .text .imageText .text{
+    width: 60%;
+    font-size: 19px;
+    padding-top: 100px;
+}
+.appsection .inner .icons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+}
+.appsection .inner .icons .pics{
+    width: 25%;
+    height: 50px;
+}
+.appsection .inner .icons .pics img{
+    width: 100%;
+    height: 100%;
+}
+.image .card1{
+    width: 600px;
+    height: 270px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 4480px;
+}
+.image .card1 p{
+    padding-left: 15px;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image .card1 h3{
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.image .card1 #busiBtn{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(202, 17, 118);
+    /* padding-left: 15px; */
+    margin-left: 15px;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    margin-top: 100px;
+}
+footer .hrTag{
+    width: 90%;
+    margin: auto;
+}
+footer .inner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+footer .inner .side{
+    width: 24%;
+    color: rgb(202, 17, 118);
+}
+footer .inner .side2{
+    width: 24%;
+}
+
+footer .inner .side2 ul li{
+    list-style: none;
+    padding-top: 15px;
+}
+footer .inner .side2 ul li a{
+    text-decoration: none;
+    color: rgb(202, 17, 118);
+    font-size: 19px;
+}
+.innerIcons{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.innerIcons .icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.innerIcons .icon img{
+    width: 100%;
+}
+.innerIcons .empty{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.innerIcons .icons{
+    width: 200px;
+    /* border: 2px solid black; */
+    padding-top: 10px;
+}

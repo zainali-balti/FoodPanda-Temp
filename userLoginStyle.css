@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color: rgb(202, 17, 118);
+}
+nav .innerNave{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+nav .innerNave .icon{
+    width: 200px;
+}
+nav .innerNave .icon img{
+    width: 100%;
+}
+nav .innerNave .btns{
+    width: 350px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav .innerNave .btns #user{
+    background-color:  rgb(202, 17, 118);
+    border:  1px solid white;
+    border-radius: 10px;
+    width: 40%;
+    height: 60px;
+}
+nav .innerNave .btns #user a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+nav .innerNave .btns #restaurant{
+    background-color:  rgb(202, 17, 118);
+    border: 1px solid white;
+    font-size: 22px;
+    color: white;
+    height: 60px;
+    border-radius: 10px;
+    width: 50%;
+}
+nav .innerNave .btns #restaurant a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+nav .innerNave .btns #restaurant:hover{
+    background-color: white;
+}
+nav .innerNave .btns #user:hover{
+    background-color: white;
+}
+nav .innerNave .btns #restaurant a:hover{
+    color: black;
+}
+nav .innerNave .btns #user a:hover{
+    color: black;
+}
+.section{
+    width: 100%;
+    margin-top: 100px;
+}
+.section .inner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.section .inner .text{
+    width: 60%;
+    /* border: 2px solid black; */
+}
+.section .inner .text h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.section .inner .text p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.section .inner .text button{
+    background-color:  rgb(202, 17, 118);
+    height: 45px;
+    width: 140px;
+    border-radius: 10px;
+}
+.section .inner .text button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.section .inner .image{
+    width: 30%;
+
+}
+.section .inner .image img{
+    width: 100%;
+}
+.lables{
+    width: 100%;
+    margin-top: 100px;
+}
+.lables .innerLab{
+    width: 90%;
+    margin: auto;
+}
+.lables .innerLab .sides{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+}
+.lables .innerLab .sides .lable{
+    width: 48%;
+    /* border: 2px solid black; */
+}
+.lables .innerLab .sides .lable .text{
+   margin-top: 30px;
+   font-size: 18px;
+}
+.lables .innerLab .sides .lable .text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lables .innerLab .sides .lable .text button{
+    width: 140px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 7px;
+}
+footer{
+    width: 100%;
+    margin-top: 100px;
+}
+footer .hrTag{
+    width: 90%;
+    margin: auto;
+}
+footer .inner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+footer .inner .side{
+    width: 24%;
+    color: rgb(202, 17, 118);
+}
+footer .inner .side2{
+    width: 24%;
+}
+
+footer .inner .side2 ul li{
+    list-style: none;
+    padding-top: 15px;
+}
+footer .inner .side2 ul li a{
+    text-decoration: none;
+    color: rgb(202, 17, 118);
+    font-size: 19px;
+}
+.innerIcons{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.innerIcons .icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.innerIcons .icon img{
+    width: 100%;
+}
+.innerIcons .empty{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.innerIcons .icons{
+    width: 200px;
+    /* border: 2px solid black; */
+    padding-top: 10px;
+}
